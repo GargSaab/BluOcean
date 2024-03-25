@@ -1,0 +1,54 @@
+.library {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.card {
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+.header1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #04139a;
+  font-size: larger;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.description {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.des-box {
+  display: flex;
+  margin: 0px 8px;
+}
+.des-key {
+  color: #888;
+}
+.des-value {
+  margin-left: 3px;
+}

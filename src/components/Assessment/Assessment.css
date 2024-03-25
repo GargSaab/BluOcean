@@ -1,0 +1,179 @@
+.assessment-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header h3 {
+  margin-left: 10px;
+}
+
+.back-button {
+  margin-right: 20px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.back-link span {
+  margin-left: 5px;
+}
+
+.main-content {
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e8e8e8;
+}
+.risk-description {
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+}
+.risk-description h2,
+h3 {
+  color: #444;
+}
+.search-box {
+  display: flex;
+  background-color: #f0f2fb;
+  height: 20%;
+}
+
+.search-bar1 {
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 5px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.likelihood-score,
+.business-impact {
+  margin-bottom: 20px;
+  width: 20%;
+  padding: 5px;
+  margin-inline: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-assessment {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.card-box {
+  display: flex;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.card-box.selected {
+  background-color: #f0f2fb;
+  border-left: 2px solid #04139a;
+}
+
+.card-description {
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 5px;
+}
+
+.view-more {
+  color: #04139a;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.second-section {
+  width: 70%;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-navigation {
+  display: flex;
+
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.likelihood-score-content {
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 5px;
+}
+
+.option {
+  padding: 10px;
+
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.option:hover {
+  background-color: orange;
+}
+.option.selected {
+  background-color: orange;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #04139a;
+  color: white;
+}

@@ -1,0 +1,111 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #777;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-block: 10px;
+}
+
+.form-group-kv {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 20px;
+}
+
+.modal-footer {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.modal-footer button {
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  cursor: pointer;
+
+  background: white;
+  font-weight: bold;
+}
+
+.cancel-btn button {
+  border: 1px solid red;
+  color: red;
+}
+.cancel-btn button:hover {
+  color: white;
+  background: red;
+}
+.save-btn button {
+  border: 1px solid #04139a;
+  color: #04139a;
+  margin-inline: 10px;
+}
+.save-btn button {
+  border: 1px solid #04139a;
+  color: #04139a;
+  margin-inline: 10px;
+}
+.save-btn button:hover {
+  color: white;
+  background: #04139a;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.add-btn-box {
+  cursor: pointer;
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+  color: #04139a;
+  cursor: pointer;
+  outline: none;
+}
